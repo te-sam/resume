@@ -1,7 +1,7 @@
 body {
     background-image: url(img/back.jpg);
     max-width: 960px;
-    min-width: 960px;
+    /* min-width: 960px; */
     margin: 0 auto;
     height: auto;
     font-family: Merriweather, sans-serif;
@@ -103,56 +103,68 @@ body {
 @media screen and (max-width: 576px){
     #left {
         background-color: rgb(222, 222, 230, 0.3);
-        min-width: 100%;
         min-height: 50vh;
     }
 
     .name {
-        font-size: 90px;
+        font-size: 30px;
         text-align: center;
         margin-top: 140px;
         margin-bottom: 120px;
+        margin-left: 10px;
     }
      .work {
-        max-width: 90%;
-        font-size: 40px;
+        max-width: 65%;
+        font-size: 12px;
+        margin-left: 12px;
      }
 
      .head2 {
-        font-size: 40px;
+        font-size: 15px;
+        margin-left: 12px;
      }
 
 
      h3 {
-        font-size: 40px;
-        max-width: 90%;
+        font-size: 15px;
+        max-width: 70%;
+        margin-left: 12px;
      }
 
      h4 {
-        font-size: 28px;
+        font-size: 13px;
+        margin-left: 12px;
+     }
+
+     #xpNone {
+        font-size: 13px;
+        max-width: 65%;
      }
 
      
     #right {
         background-color: rgb(222, 222, 230, 0.3);
-        min-width: 100%;
         min-height: 50vh;
     }
 
     .info {
-        font-size: 30px;
-        margin-left: 60px;
+        font-size: 13px;
+        margin-left: 15px;
     }
 
     .workR {
-        max-width: 90%;
-        font-size: 40px;
+        max-width: 65%;
+        font-size: 12px;
         margin-left: -110px;
      }
 
      .head2r {
-        font-size: 40px;
-        margin-left: -110px;
+        font-size: 15px;
+        margin-left: -155px;
+     }
+
+     li {
+        margin-left: -140px;
      }
 }
 

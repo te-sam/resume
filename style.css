@@ -1,5 +1,6 @@
 body {
-    background-image: url(img/back.jpg);
+    /* background-image: url(img/back.jpg); */
+    background-color: red;
     max-width: 960px;
     /* min-width: 960px; */
     margin: 0 auto;

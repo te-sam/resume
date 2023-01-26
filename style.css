@@ -1,0 +1,161 @@
+body {
+    background-image: url(img/back.jpg);
+    max-width: 960px;
+    min-width: 960px;
+    margin: 0 auto;
+    height: auto;
+    font-family: Merriweather, sans-serif;
+}
+
+/* div {
+    min-height: 100vh;
+} */
+    #left {
+        background-color: rgb(222, 222, 230, 0.3);
+        float: left;
+        max-width: 480px;
+        min-height: 1000px;
+    }
+    
+    .name {
+        margin: 100px 100px 70px;
+        font-size: 260%;
+        font-weight: bold;
+    }
+
+    .head2 {
+        color: rgb(16, 97, 184);
+        font-size: 13px;
+        font-weight: 600;
+        margin: 45px 60px 0px;
+    }
+
+    h3 {
+        font-size: 17px;
+        font-weight: 100;
+        margin: 20px -40px 3px 60px;
+    }
+
+    h4 {
+        font-family: Open Sans;
+        color: rgb(90, 90, 90);
+        font-size: 14px;
+        margin: 10px 60px 3px
+    }
+
+    .work {
+        margin: 20px -40px 20px 60px;
+        color: rgb(0, 0, 0, 0.8);
+    }
+
+    #xpNone {
+        color: rgb(0, 0, 0, 0.8);
+    }
+
+/* Правая сторона */
+
+    #right {
+        background-color: rgb(222, 222, 230, 0.3);
+        float: right;
+        max-width: 480px;
+        min-height: 1000px;
+    }
+
+    .head2r {
+        color: rgb(16, 97, 184);
+        font-size: 13px;
+        font-weight: 600;
+        margin: 45px 0px 0px; 
+    }
+
+    .info {
+        margin-left: 170px;
+        margin-top: 120px;
+        font-size: 13px;
+    }
+
+    .skills {
+        margin-top: 100px;
+        margin-left: 170px;
+    }
+
+    .character {
+        margin-left: 170px;
+    }
+
+    .languages {
+        margin-left: 170px;
+    }
+
+    .workR {
+        color: rgb(0, 0, 0, 0.8);
+    }
+
+    li {
+        margin: 2px 0px;
+    }
+
+    #list {
+        margin-left: -25px;
+    }
+
+
+@media screen and (max-width: 576px){
+    #left {
+        background-color: rgb(222, 222, 230, 0.3);
+        min-width: 100%;
+        min-height: 50vh;
+    }
+
+    .name {
+        font-size: 90px;
+        text-align: center;
+        margin-top: 140px;
+        margin-bottom: 120px;
+    }
+     .work {
+        max-width: 90%;
+        font-size: 40px;
+     }
+
+     .head2 {
+        font-size: 40px;
+     }
+
+
+     h3 {
+        font-size: 40px;
+        max-width: 90%;
+     }
+
+     h4 {
+        font-size: 28px;
+     }
+
+     
+    #right {
+        background-color: rgb(222, 222, 230, 0.3);
+        min-width: 100%;
+        min-height: 50vh;
+    }
+
+    .info {
+        font-size: 30px;
+        margin-left: 60px;
+    }
+
+    .workR {
+        max-width: 90%;
+        font-size: 40px;
+        margin-left: -110px;
+     }
+
+     .head2r {
+        font-size: 40px;
+        margin-left: -110px;
+     }
+}
+
+
+
+

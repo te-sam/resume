@@ -109,9 +109,10 @@ body {
     .name {
         font-size: 40px;
         text-align: center;
-        margin-top: 140px;
-        margin-bottom: 120px;
+        margin-top: 90px;
+        margin-bottom: 70px;
         margin-left: 60px;
+        margin-right: 72px;
     }
      .work {
         max-width: 90%;
@@ -153,7 +154,7 @@ body {
     }
 
     .workR {
-        max-width: 90%;
+        max-width: 140%;
         font-size: 20px;
         margin-left: -140px;
      }

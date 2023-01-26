@@ -1,6 +1,5 @@
 body {
-    /* background-image: url(img/back.jpg); */
-    background-color: red;
+    background-image: url(img/back.jpg);
     max-width: 960px;
     /* min-width: 960px; */
     margin: 0 auto;
@@ -101,44 +100,44 @@ body {
     }
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 950px){
     #left {
         background-color: rgb(222, 222, 230, 0.3);
         min-height: 50vh;
     }
 
     .name {
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
         margin-top: 140px;
         margin-bottom: 120px;
-        margin-left: 10px;
+        margin-left: 60px;
     }
      .work {
-        max-width: 65%;
-        font-size: 12px;
-        margin-left: 12px;
+        max-width: 90%;
+        font-size: 20px;
+        margin-left: 20px;
      }
 
      .head2 {
-        font-size: 15px;
-        margin-left: 12px;
+        font-size: 20px;
+        margin-left: 20px;
      }
 
 
      h3 {
-        font-size: 15px;
+        font-size: 20px;
         max-width: 70%;
-        margin-left: 12px;
+        margin-left: 20px;
      }
 
      h4 {
-        font-size: 13px;
-        margin-left: 12px;
+        font-size: 15px;
+        margin-left: 20px;
      }
 
      #xpNone {
-        font-size: 13px;
+        font-size: 20px;
         max-width: 65%;
      }
 
@@ -149,23 +148,23 @@ body {
     }
 
     .info {
-        font-size: 13px;
-        margin-left: 15px;
+        font-size: 18px;
+        margin-left: 20px;
     }
 
     .workR {
-        max-width: 65%;
-        font-size: 12px;
-        margin-left: -110px;
+        max-width: 90%;
+        font-size: 20px;
+        margin-left: -140px;
      }
 
      .head2r {
-        font-size: 15px;
-        margin-left: -155px;
+        font-size: 20px;
+        margin-left: -150px;
      }
 
      li {
-        margin-left: -140px;
+        margin-left: -120px;
      }
 }
 

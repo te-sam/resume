@@ -7,8 +7,8 @@ body {
     font-family: Merriweather, sans-serif;
 }
 
-#ih {
-    font-weight: bold;
+#life {
+    font-size:  40%;
 }
 
 /* div {
@@ -79,7 +79,7 @@ body {
     }
 
     .skills {
-        margin-top: 100px;
+        margin-top: 190px;
         margin-left: 170px;
     }
 

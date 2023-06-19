@@ -7,9 +7,7 @@ body {
     font-family: Merriweather, sans-serif;
 }
 
-#life {
-    font-size:  40%;
-}
+
 
 /* div {
     min-height: 100vh;
@@ -25,6 +23,10 @@ body {
         margin: 100px 100px 70px;
         font-size: 260%;
         font-weight: bold;
+    }
+
+    #life {
+        font-size:  40%;
     }
 
     .head2 {

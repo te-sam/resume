@@ -7,6 +7,10 @@ body {
     font-family: Merriweather, sans-serif;
 }
 
+#ih {
+    font-weight: bold;
+}
+
 /* div {
     min-height: 100vh;
 } */
